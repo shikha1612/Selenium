@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Framework]">
+  <test thread-count="5" name="Login Test(failed)">
+    <classes>
+      <class name="etoETestcases.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginAsAngel"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- etoETestcases.LoginTest -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+  <test thread-count="5" name="Edit View Profile Test(failed)">
+    <classes>
+      <class name="etoETestcases.Edit_View_Profile">
+        <methods>
+          <include name="EditViewProfile_PersonlDetails"/>
+        </methods>
+      </class> <!-- etoETestcases.Edit_View_Profile -->
+    </classes>
+  </test> <!-- Edit View Profile Test(failed) -->
+</suite> <!-- Failed suite [Framework] -->
